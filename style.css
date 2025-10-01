@@ -165,11 +165,14 @@ html {
     /* background-color: #fff; */
   }
   .card__header {
-    height: 168px;
     max-width: 540px;
     display: flex;
     flex-direction: column;
     gap: var(--space-16);
+  }
+
+  .header__heading {
+    height: 102px;
   }
 
   .header__span {
@@ -215,9 +218,3 @@ html {
     height: 64px;
   }
 }
-
-
-
-
-
-
