@@ -67,7 +67,7 @@ html {
   font-family: "Poppins", sans-serif;
 }
 .card__main {
-  margin: 85px 32px;
+  margin: 90px 32px;
   /* display: grid;
   justify-content: center;
   align-items: center; */
@@ -155,7 +155,7 @@ html {
 
 @media (min-width: 1110px) {
   .card__main {
-    margin: 89px 0px;
+    margin: 90px 0px;
     /* display: grid;
     justify-content: center;
     align-items: center; */
@@ -215,4 +215,5 @@ html {
     height: 64px;
   }
 }
+
 
