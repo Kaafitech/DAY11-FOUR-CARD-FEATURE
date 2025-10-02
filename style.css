@@ -49,7 +49,7 @@
 .flex-col-center {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -67,10 +67,8 @@ html {
   font-family: "Poppins", sans-serif;
 }
 .card__main {
-  margin: 100px 32px;
-  /* display: grid;
-  justify-content: center;
-  align-items: center; */
+  width: 100%;
+  margin: 85px 32px;
 }
 .card__article {
   gap: 64px;
@@ -129,7 +127,8 @@ html {
 }
 
 .card__par {
-  opacity: 0.5;
+  /* opacity: 0.5; */
+  transition: all 0.3s ease;
 }
 
 .card__one {
@@ -155,10 +154,7 @@ html {
 
 @media (min-width: 1110px) {
   .card__main {
-    margin: 100px 0px;
-    /* display: grid;
-    justify-content: center;
-    align-items: center; */
+    margin: 103px 0px;
   }
   .card__article {
     gap: 64px;
@@ -171,10 +167,6 @@ html {
     gap: var(--space-16);
   }
 
-  .header__heading {
-    height: 102px;
-  }
-
   .header__span {
     font: 200 36px/54px "Poppins", sans-serif;
     letter-spacing: 0.25px;
@@ -183,6 +175,7 @@ html {
   .header__title {
     font: 600 36px/54px "Poppins", sans-serif;
     letter-spacing: 0.25px;
+    margin-top: -5px;
   }
 
   .header__desc {
@@ -204,7 +197,6 @@ html {
   }
 
   .card_desc {
-    text-align: start;
     gap: 6px;
     color: var(--Grey500);
   }
