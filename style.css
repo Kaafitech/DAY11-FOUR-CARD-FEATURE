@@ -68,9 +68,9 @@ html {
 }
 .card__main {
   width: 100%;
-  margin: 85px 32px;
 }
 .card__article {
+  margin: 85px 32px;
   gap: 64px;
   /* background-color: #fff; */
 }
@@ -153,15 +153,14 @@ html {
 }
 
 @media (min-width: 1110px) {
-  .card__main {
-    margin: 103px 0px;
-  }
   .card__article {
+    margin: 103px 0px;
     gap: 64px;
     /* background-color: #fff; */
   }
   .card__header {
     max-width: 540px;
+    height: 168px;
     display: flex;
     flex-direction: column;
     gap: var(--space-16);
@@ -175,7 +174,7 @@ html {
   .header__title {
     font: 600 36px/54px "Poppins", sans-serif;
     letter-spacing: 0.25px;
-    margin-top: -5px;
+    margin: -3px 0 0 0;
   }
 
   .header__desc {
